@@ -12,7 +12,7 @@ module.exports = {
       },
     ],
   },
-  testEnvironment: "node",
+  testEnvironment: "node", 
   moduleFileExtensions: ["js", "ts", "json"],
   modulePathIgnorePatterns: ["dist/", "<rootDir>/.medusa/"],
   setupFiles: ["./integration-tests/setup.js"],
