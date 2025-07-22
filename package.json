@@ -14,8 +14,8 @@
   ],
   "scripts": {
     "build": "medusa build",
-    "seed": "medusa exec ./src/scripts/seed.ts",
-    "migrations": "medusa migrations run",
+    "migrate": "medusa db:migrate",
+    "setup": "medusa db:setup",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "start": "medusa start",
     "dev": "medusa develop",
